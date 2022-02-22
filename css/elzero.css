@@ -1296,7 +1296,7 @@ background-size: cover;
     align-items: center;
     justify-content: center;
     flex-basis: 50%;
-    background-image: url("/images/discount-background1.jpg");
+    background-image: url("../images/discount-background1.jpg");
     background-size: cover;
     color: white;
     z-index: 1;
@@ -1549,10 +1549,10 @@ background-size: cover;
 }
 @keyframes change-background {
     0%, 100% {
-        background-image: url("/images/discount-background1.jpg");
+        background-image: url("../images/discount-background1.jpg");
     }
     50% {
-        background-image: url("/images/discount-background2.jpg");
+        background-image: url("../images/discount-background2.jpg");
     }
 }
 /* end animation */
