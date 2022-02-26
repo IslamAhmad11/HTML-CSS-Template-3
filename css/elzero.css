@@ -21,11 +21,11 @@ html {
   }
   ::-webkit-scrollbar-track {
     background-color: #f9f9f9;
-    box-shadow: 0 0 10px #333 inset;
+    box-shadow: 0 0 10px rgb(109, 107, 107) inset;
   }
   ::-webkit-scrollbar-thumb {
     background-color: rgba(221, 221, 221, 10%);
-    box-shadow: 0 0 10px #333 inset;
+    box-shadow: 0 0 10px rgb(143, 143, 143) inset;
     border-radius: 20px;
   }
   ::-webkit-scrollbar-thumb:hover {
