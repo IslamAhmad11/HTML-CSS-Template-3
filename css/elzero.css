@@ -16,6 +16,22 @@
 html {
     scroll-behavior: smooth;
 }
+::-webkit-scrollbar {
+    width: 15px;
+  }
+  ::-webkit-scrollbartrack {
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px #333 inset;
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: rgba(221, 221, 221, 10%);
+    box-shadow: 0 0 10px #333 inset;
+    border-radius: 20px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    box-shadow: none;
+    background-color:  var(--main-color);
+  }
 body {
     font-family: "Cairo", sans-serif;
 }
