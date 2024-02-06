@@ -836,6 +836,7 @@ header .links li a i {
     left: 0;
     height: 100%;
     background-color: var(--main-color);
+    transition: width 0.3s linear;
 }
 /* end our-skills */
 
